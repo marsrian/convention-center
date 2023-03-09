@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convention Center 2023</title>
+    <link rel="stylesheet" href="./output/tailwind.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/98e8a8d1ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container mx-auto navbar bg-base-100 justify-between">
+            <div class="navbar-start">
+                <a class='text-[#3E3E3E] text-base md:text-xl font-medium md:font-bold'>Abacus Convention Center</a>
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-[#3E3E3E] font-medium text-base">
+                        <li>Home</li>
+                        <li>Item 2</li>
+                        <li>Contact</li>
+                        <li>Subscribe</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-[#3E3E3E] font-medium text-base gap-6">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                    <li>Subscribe</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Carousel -->
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="src/images/banner.png" class="w-full" alt='' />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <div class='text-center'>
+                        <h1 class='text-xl md:text-5xl font-semibold text-white mb-[5px]'>The perfect venue for your <br> next event</h1>
+                        <p class='text-center text-white font-light mb-4'>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
+                        <button class='text-[#3F87F5] font-semibold md:bold text-base py-[10px] px-5 md:px-10 bg-white rounded-md'>Book Now</button>
+                    </div>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="src/images/banner.png" class="w-full" alt='' />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <div class='text-center'>
+                        <h1 class='text-xl md:text-5xl font-semibold text-white mb-[5px]'>The perfect venue for your <br> next event</h1>
+                        <p class='text-center text-white font-light mb-4'>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
+                        <button class='text-[#3F87F5] font-semibold md:bold text-base py-[10px] px-5 md:px-10 bg-white rounded-md'>Book Now</button>
+                    </div>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="src/images/banner.png" class="w-full" alt='' />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <div class='text-center'>
+                        <h1 class='text-xl md:text-5xl font-semibold text-white mb-[5px]'>The perfect venue for your <br> next event</h1>
+                        <p class='text-center text-white font-light mb-4'>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
+                        <button class='text-[#3F87F5] font-semibold md:bold text-base py-[10px] px-5 md:px-10 bg-white rounded-md'>Book Now</button>
+                    </div>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="src/images/banner.png" class="w-full" alt='' />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <div class='text-center'>
+                        <h1 class='text-xl md:text-5xl font-semibold text-white mb-[5px]'>The perfect venue for your <br> next event</h1>
+                        <p class='text-center text-white font-light mb-4'>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
+                        <button class='text-[#3F87F5] font-semibold md:bold text-base py-[10px] px-5 md:px-10 bg-white rounded-md'>Book Now</button>
+                    </div>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class='container mx-auto mt-24'>
+        <section>
+            <div class='grid grid-cols-1 md:grid-cols-2'>
+                <div>
+                    <img src="src/images/wedding.png" alt="">
+                </div>
+                <div>
+                    <h1 class='text-[#0A0826] font-bold text-xl md:text-4xl mb-[6px]'>Every moment is Precious </h1>
+                    <div class='relative'>
+                        <p class='text-[#6C6C6C] text-base font-medium md:font-bold mb-5'>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit officia consequat duis enim velit mollit. <br> Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class='absolute font-medium text-sm p-2 border-l-4 border-l-[#3F87F5] top-1/3 left-1/2 bg-white rounded-sm shadow-lg'><i class="fa-solid fa-gift text-blue-600"></i> 20% off on next booking <i class="fa-solid fa-xmark text-xs ml-1"></i></p>
+                    </div>
+                    <button class='bg-[#3F87F5] text-white py-[10px] px-4 md:px-6 text-base font-bold'>Explore our album</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
