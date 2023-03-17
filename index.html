@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./output/tailwind.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/98e8a8d1ca.js" crossorigin="anonymous"></script>
+    <!-- FlowBite CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -205,6 +207,80 @@
                 </div>
             </div>
         </section>
+        <!-- FAQ Section -->
+        <section class='mt-24'>
+            <h1 class='text-[#0D0925] text-center font-semibold text-4xl mb-24'>Frequently Asked Questions</h1>
+            <div class='grid grid-cols-1 md:grid-cols-2 gap-6 p-8'>
+                <div>
+                    <!-- Accordion Start -->
+                    <div id="accordion-color" data-accordion="collapse" data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
+                        <h2 id="accordion-color-heading-1">
+                            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-[#383838] border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
+                                <span>What’s the difference between event design and event planning? </span>
+                                <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
+                            <div class="p-5 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                <p class="mb-2 text-gray-700 dark:text-gray-400">Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</p>
+                            </div>
+                        </div>
+                        <h2 id="accordion-color-heading-2">
+                            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-2" aria-expanded="false" aria-controls="accordion-color-body-2">
+                                <span>How early do we need to start planning an event?</span>
+                                <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
+                            <div class="p-5 font-light border border-b-0 border-gray-200 dark:border-gray-700">
+                                <p class="mb-2 text-gray-500 dark:text-gray-400">Event:</p>
+                            </div>
+                        </div>
+                        <h2 id="accordion-color-heading-3">
+                            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-3" aria-expanded="false" aria-controls="accordion-color-body-3">
+                                <span>What is your refund and cancellation policy?</span>
+                                <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
+                            <div class="p-5 font-light border border-t-0 border-gray-200 dark:border-gray-700">
+                                <p class="mb-2 text-gray-500 dark:text-gray-400">Policy:</p>
+                            </div>
+                        </div>
+                        <h2 id="accordion-color-heading-4">
+                            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-4" aria-expanded="false" aria-controls="accordion-color-body-4">
+                                <span>How do you keep budgets on track?</span>
+                                <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-color-body-4" class="hidden" aria-labelledby="accordion-color-heading-4">
+                            <div class="p-5 font-light border border-t-0 border-gray-200 dark:border-gray-700">
+                                <p class="mb-2 text-gray-500 dark:text-gray-400">Budget:</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="src/images/people.png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
+    <!-- Footer -->
+    <footer class='mt-36 bg-[#0B0D17]'>
+        <div class='flex flex-col md:flex-row justify-between py-12 px-12 md:px-32'>
+            <div class='order-2 md:order-1'>
+                <p class='text-[#D9DBE1] text-sm'>© 2023 Mars Rian. All rights reserved</p>
+            </div>
+            <div class='order-1 md:order-2'>
+                <h5 class='text-[#D9DBE1] font-medium text-lg mb-4'>Get the App</h5>
+                <img class='w-32 mb-4' src="src/images/app store.png" alt="">
+                <img class='w-32 mb-12 md:mb-0' src="src/images/google play.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <!-- FlowBite JS File -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
 </body>
 </html>
